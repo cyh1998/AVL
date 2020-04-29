@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cyh/test/BinaryTree/avl.h
+iostream
+-
+algorithm
+-
+
+/home/cyh/test/BinaryTree/main.cpp
+iostream
+-
+algorithm
+-
+avl.h
+/home/cyh/test/BinaryTree/avl.h
+
